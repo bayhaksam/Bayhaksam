@@ -2,20 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyVersion>0.0.1.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
-    <Description>Bayhaksam API</Description>
-    <Authors>Bayhaksam</Authors>
-    <Company>Bayhaksam</Company>
+    <Description>Bayhaksam.Extensions API</Description>
+    <Version>0.0.1</Version>
     <Copyright>Copyright © 2016 - 2018 Bayhaksam. All rights reserved.</Copyright>
     <PackageLicenseUrl>https://github.com/bayhaksam/Bayhaksam/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bayhaksam/Bayhaksam</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bayhaksam/Bayhaksam</RepositoryUrl>
-    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>E:\dev\repo\Bayhaksam\src\public\Bayhaksam\src\src\src\Bayhaksam.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
   </PropertyGroup>
 

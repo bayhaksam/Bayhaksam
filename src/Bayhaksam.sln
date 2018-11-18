@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91D326AE-9CD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam", "src\src\Bayhaksam.csproj", "{EC6C5947-12DF-4DC2-9938-2B0C2C259DC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{E6F49BEF-8281-4322-810C-FB571275840F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{251895DC-A57E-43F3-8B4B-377811744AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.Extensions", "src\Extensions\src\Bayhaksam.Extensions.csproj", "{325DC6F0-28DB-4015-81CF-ADAB55D5F64A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +23,19 @@ Global
 		{EC6C5947-12DF-4DC2-9938-2B0C2C259DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6C5947-12DF-4DC2-9938-2B0C2C259DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6C5947-12DF-4DC2-9938-2B0C2C259DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325DC6F0-28DB-4015-81CF-ADAB55D5F64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325DC6F0-28DB-4015-81CF-ADAB55D5F64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325DC6F0-28DB-4015-81CF-ADAB55D5F64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325DC6F0-28DB-4015-81CF-ADAB55D5F64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC6C5947-12DF-4DC2-9938-2B0C2C259DC4} = {91D326AE-9CD5-42C6-AE51-3CBB1CEF08A8}
+		{E6F49BEF-8281-4322-810C-FB571275840F} = {91D326AE-9CD5-42C6-AE51-3CBB1CEF08A8}
+		{251895DC-A57E-43F3-8B4B-377811744AC6} = {E6F49BEF-8281-4322-810C-FB571275840F}
+		{325DC6F0-28DB-4015-81CF-ADAB55D5F64A} = {251895DC-A57E-43F3-8B4B-377811744AC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E23E0C6-3F2B-4DB2-B724-690990F30F53}
