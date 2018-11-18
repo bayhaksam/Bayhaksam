@@ -16,6 +16,20 @@ namespace Bayhaksam.Extensions
 	public static class StringExt
 	{
 		/// <summary>
+		/// Appends new line the end of the <paramref name="source"/>.
+		/// </summary>
+		/// <param name="source">The string</param>
+		/// <returns>Returns appended new string.</returns>
+		public static string AppendNewLineEnd(this string source) => source + Environment.NewLine;
+
+		/// <summary>
+		/// Appends new line the start of the <paramref name="source"/>.
+		/// </summary>
+		/// <param name="source">The string</param>
+		/// <returns>Returns appended new string.</returns>
+		public static string AppendNewLineStart(this string source) => Environment.NewLine + source;
+
+		/// <summary>
 		/// Gets index of first digit.
 		/// <para>Returns -1 when not found any digit.</para>
 		/// </summary>
@@ -61,10 +75,7 @@ namespace Bayhaksam.Extensions
 		/// <param name="value">The search begins from start index</param>
 		/// <param name="n">Which occurrence ?</param>
 		/// <returns>Returns the index of the nth occurrence of value in the string.</returns>
-		public static int IndexOfNth(this string source, char value, int n)
-		{
-			return source.IndexOfNth(value, 0, n);
-		}
+		public static int IndexOfNth(this string source, char value, int n) => source.IndexOfNth(value, 0, n);
 
 		/// <summary>
 		/// Determines the index of the nth occurrence of value in the string.
