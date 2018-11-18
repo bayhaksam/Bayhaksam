@@ -7,7 +7,7 @@
     <Description>Bayhaksam API</Description>
     <Authors>Bayhaksam</Authors>
     <Company>Bayhaksam</Company>
-    <Copyright>Copyright © 2016 - 2018 Bayhaksam. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2015 - 2018 Bayhaksam. All rights reserved.</Copyright>
     <PackageLicenseUrl>https://github.com/bayhaksam/Bayhaksam/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bayhaksam/Bayhaksam</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bayhaksam/Bayhaksam</RepositoryUrl>
@@ -15,8 +15,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>E:\dev\repo\Bayhaksam\src\public\Bayhaksam\src\src\src\Bayhaksam.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
