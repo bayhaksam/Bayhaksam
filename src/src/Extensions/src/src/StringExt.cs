@@ -133,6 +133,14 @@ namespace Bayhaksam.Extensions
 
 		public static bool IsNotEmpty(this string source) => source.Length > 0;
 
+		public static bool IsNotEmptyOrWhitespace(this string source) => source.Length != 0 && source != " ";
+
+		public static bool IsNotNullOrBlank(this string source) => source != null && !source.IsBlank();
+
+		public static bool IsNotNullOrEmpty(this string source) => !string.IsNullOrEmpty(source);
+
+		public static bool IsNotNullOrWhiteSpace(this string source) => !string.IsNullOrWhiteSpace(source);
+
 		public static bool IsNotWhitespace(this string source) => source != " ";
 
 		public static bool IsNullOrBlank(this string source) => source == null || source.IsBlank();
