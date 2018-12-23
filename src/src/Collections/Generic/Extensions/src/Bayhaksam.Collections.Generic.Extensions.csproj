@@ -21,8 +21,4 @@
     <ProjectReference Include="..\..\..\..\src\Bayhaksam.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="src\" />
-  </ItemGroup>
-
 </Project>
