@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Bayhaksam.Collections.Generic.Extensions API</Description>
+    <Version>0.0.1</Version>
+    <Copyright>Copyright © 2015 - 2018 Bayhaksam. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/bayhaksam/Bayhaksam/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bayhaksam/Bayhaksam</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bayhaksam/Bayhaksam</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.Collections.Generic.Extensions.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
