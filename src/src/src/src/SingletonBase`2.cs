@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="SingletonBase`2.cs" company="Simsoft">
-//      Copyright (c) Simsoft. All rights reserved.
+// <copyright file="SingletonBase`2.cs" company="Bayhaksam">
+//      Copyright (c) Bayhaksam. All rights reserved.
 // </copyright>
 // <author>Samet Kurumahmut</author>
 //-----------------------------------------------------------------------

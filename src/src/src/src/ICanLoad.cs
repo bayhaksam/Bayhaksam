@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="ICanLoad.cs" company="Simsoft">
-//      Copyright (c) Simsoft. All rights reserved.
+// <copyright file="ICanLoad.cs" company="Bayhaksam">
+//      Copyright (c) Bayhaksam. All rights reserved.
 // </copyright>
 // <author>Samet Kurumahmut</author>
 //-----------------------------------------------------------------------
