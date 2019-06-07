@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <Version>0.0.1</Version>
+    <Description>Bayhaksam.Data API</Description>
+    <Copyright>Copyright © 2015 - 2019 Bayhaksam. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/bayhaksam/Bayhaksam/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bayhaksam/Bayhaksam</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bayhaksam/Bayhaksam</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
