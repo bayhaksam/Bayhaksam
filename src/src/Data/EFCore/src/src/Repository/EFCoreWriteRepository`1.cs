@@ -22,13 +22,14 @@ namespace Bayhaksam.Data.EFCore.Repository
 		#endregion
 
 		#region IWriteRepository Methods
-		public void Add(TEntity entity) => this.Context.Set<TEntity>().Add(entity);
+		public virtual void Add(TEntity entity) => this.Context.Set<TEntity>().Add(entity);
 
-		public void AddRange(IEnumerable<TEntity> entities) => this.Context.Set<TEntity>().AddRange(entities);
+		public virtual void AddRange(IEnumerable<TEntity> entities) => this.Context.Set<TEntity>().AddRange(entities);
 
-		public void Remove(TEntity entity) => this.Context.Set<TEntity>().Remove(entity);
+		public virtual void Remove(TEntity entity) => this.Context.Set<TEntity>().Remove(entity);
 
-		public void RemoveRange(IEnumerable<TEntity> entities) => this.Context.Set<TEntity>().RemoveRange(entities);
+		public virtual void RemoveRange(IEnumerable<TEntity> entities) =>
+			this.Context.Set<TEntity>().RemoveRange(entities);
 		#endregion
 	}
 }
