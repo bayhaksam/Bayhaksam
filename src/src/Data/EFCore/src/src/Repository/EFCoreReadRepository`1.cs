@@ -24,14 +24,14 @@ namespace Bayhaksam.Data.EFCore.Repository
 		#endregion
 
 		#region IReadRepository Methods
-		public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) =>
+		public virtual IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) =>
 			this.Context.Set<TEntity>().Where(predicate);
 
-		public IEnumerable<TEntity> GetAll() => this.Context.Set<TEntity>().ToList();
+		public virtual IEnumerable<TEntity> GetAll() => this.Context.Set<TEntity>().ToList();
 
-		public TEntity Get(int id) => this.Context.Set<TEntity>().Find(id);
+		public virtual TEntity Get(int id) => this.Context.Set<TEntity>().Find(id);
 
-		public TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate) =>
+		public virtual TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate) =>
 			this.Context.Set<TEntity>().SingleOrDefault(predicate);
 		#endregion
 	}
