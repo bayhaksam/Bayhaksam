@@ -24,6 +24,8 @@ namespace Bayhaksam.Data.EFCore.Repository
 		#endregion
 
 		#region IReadRepository Methods
+		public virtual bool IsExists(int id) => this.Context.Set<TEntity>().Find(id) != null;
+
 		public virtual IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) =>
 			this.Context.Set<TEntity>().Where(predicate);
 
