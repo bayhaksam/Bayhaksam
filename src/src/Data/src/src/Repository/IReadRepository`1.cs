@@ -13,6 +13,8 @@ namespace Bayhaksam.Data.Repository
 
 	public interface IReadRepository<TEntity> where TEntity : class
 	{
+		bool IsExists(int id);
+
 		IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 
 		IEnumerable<TEntity> GetAll();
