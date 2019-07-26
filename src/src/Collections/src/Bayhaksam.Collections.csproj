@@ -14,8 +14,4 @@
     <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="src\" />
-  </ItemGroup>
-
 </Project>
