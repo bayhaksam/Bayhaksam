@@ -11,16 +11,16 @@ namespace Bayhaksam.Data.Repository
 	using System.Collections.Generic;
 	using System.Linq.Expressions;
 
-	public interface IReadRepository<TEntity> where TEntity : class
+	public interface IReadRepository<TEntity, TPrimaryKey> where TEntity : class
 	{
-		bool IsExists(int id);
+		bool IsExists(TPrimaryKey id);
 
 		IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 
 		IEnumerable<TEntity> GetAll();
 
-		TEntity Get(int id);
+		TEntity FirstOrDefault(Expression<Func<TEntity, bool>> predicate);
 
-		TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate);
+		TEntity Get(TPrimaryKey id);
 	}
 }
